@@ -1,6 +1,5 @@
-# [Moment Timezone](http://momentjs.com/timezone)
-
-[![Join the chat at https://gitter.im/moment/moment-timezone](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/moment/moment-timezone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# [jalali Moment Timezone](http://momentjs.com/timezone)
+forked from jalali-moment, moment-timezone
 
 [![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![MIT License][license-image]][license-url] [![Build Status][travis-image]][travis-url]
 
