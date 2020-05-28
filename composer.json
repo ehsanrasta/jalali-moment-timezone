@@ -1,43 +1,41 @@
 {
-  "name": "ehsanrasta/moment-timezone",
-  "description": "add timezone support to jalali-moment",
-  "version": "0.5.31",
-  "keywords": [
-    "moment",
-    "date",
-    "time",
-    "timezone",
-    "olson",
-    "iana",
-    "zone",
-    "tz"
-  ],
-  "homepage": "http://momentjs.com/timezone/",
-  "license": "MIT",
-  "support": {
-    "issues": "https://github.com/moment/moment-timezone/issues",
-    "source": "https://github.com/moment/moment-timezone"
-  },
-  "authors": [
-    {
-      "name": "Tim Wood",
-      "email": "washwithcare@gmail.com",
-      "homepage": "http://timwoodcreates.com/"
+    "name": "ehsanrasta/jalali-moment-timezone",
+    "description": "add timezone support to jalali-moment",
+    "version": "0.5.31",
+    "keywords": [
+        "moment",
+        "date",
+        "time",
+        "timezone",
+        "olson",
+        "iana",
+        "zone",
+        "tz"
+    ],
+    "homepage": "http://momentjs.com/timezone/",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ehsanrasta/moment-timezone/issues",
+        "source": "https://github.com/ehsanrasta/moment-timezone"
+    },
+    "authors": [{
+        "name": "Ehsan Rasta",
+        "email": "eh.rasta@me.com"
+    }],
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*",
+        "moment/moment": ">=2.9.0",
+        "fingerpich/jalali-moment": ">=3.3.4"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "moment-timezone.js"
+            ],
+            "files": [
+                "builds/*.js"
+            ]
+        }
     }
-  ],
-  "type": "component",
-  "require": {
-    "robloach/component-installer": "*",
-    "moment/moment": ">=2.9.0"
-  },
-  "extra": {
-    "component": {
-      "scripts": [
-        "moment-timezone.js"
-      ],
-      "files": [
-        "builds/*.js"
-      ]
-    }
-  }
 }
